@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1457AE55EDDEEB5C2B0B9367 /* libPods-XYRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1A4809D150C49951156E5 /* libPods-XYRefreshTests.a */; };
 		3C0CF5021D86520300595AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF5011D86520300595AC0 /* main.m */; };
 		3C0CF5051D86520300595AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF5041D86520300595AC0 /* AppDelegate.m */; };
 		3C0CF5081D86520300595AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF5071D86520300595AC0 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		3C0CF5101D86520300595AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0CF50E1D86520300595AC0 /* LaunchScreen.storyboard */; };
 		3C0CF51B1D86520300595AC0 /* XYRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF51A1D86520300595AC0 /* XYRefreshTests.m */; };
 		3C0CF5261D86520300595AC0 /* XYRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF5251D86520300595AC0 /* XYRefreshUITests.m */; };
+		3C0CF5381D8654CB00595AC0 /* XYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF5371D8654CB00595AC0 /* XYModel.m */; };
+		3C0CF53F1D86552B00595AC0 /* XYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CF53D1D86552B00595AC0 /* XYTableViewCell.m */; };
+		3C0CF5401D86552B00595AC0 /* XYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0CF53E1D86552B00595AC0 /* XYTableViewCell.xib */; };
+		84E9D82C1345497645A7F01F /* libPods-XYRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9B0F5CEE5EA4A900B2EA7B /* libPods-XYRefreshUITests.a */; };
+		F32971717FBBE16D6FC8532A /* libPods-XYRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326621295C556FE47F3DE6F0 /* libPods-XYRefresh.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0810D2F5DFC0B2D491AF5B89 /* Pods-XYRefreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefreshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefreshTests/Pods-XYRefreshTests.release.xcconfig"; sourceTree = "<group>"; };
+		326621295C556FE47F3DE6F0 /* libPods-XYRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0CF4FD1D86520300595AC0 /* XYRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0CF5011D86520300595AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C0CF5031D86520300595AC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,19 @@
 		3C0CF5211D86520300595AC0 /* XYRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0CF5251D86520300595AC0 /* XYRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRefreshUITests.m; sourceTree = "<group>"; };
 		3C0CF5271D86520400595AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0CF5361D8654CB00595AC0 /* XYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYModel.h; sourceTree = "<group>"; };
+		3C0CF5371D8654CB00595AC0 /* XYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYModel.m; sourceTree = "<group>"; };
+		3C0CF53C1D86552B00595AC0 /* XYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableViewCell.h; sourceTree = "<group>"; };
+		3C0CF53D1D86552B00595AC0 /* XYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableViewCell.m; sourceTree = "<group>"; };
+		3C0CF53E1D86552B00595AC0 /* XYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYTableViewCell.xib; sourceTree = "<group>"; };
+		3C0CF5411D86561100595AC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7EDA380B8797AF6F1EA7EA7B /* Pods-XYRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefresh/Pods-XYRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		996469525E5C8DF54E873506 /* Pods-XYRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefresh/Pods-XYRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB09B5F6041758F3F3F8B0F /* Pods-XYRefreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefreshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefreshTests/Pods-XYRefreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0ED49BC6CE10C8E40FCCF05 /* Pods-XYRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefreshUITests/Pods-XYRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F6ADC00A0EE9A167F8D333 /* Pods-XYRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYRefreshUITests/Pods-XYRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF9B0F5CEE5EA4A900B2EA7B /* libPods-XYRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD1A4809D150C49951156E5 /* libPods-XYRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32971717FBBE16D6FC8532A /* libPods-XYRefresh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1457AE55EDDEEB5C2B0B9367 /* libPods-XYRefreshTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E9D82C1345497645A7F01F /* libPods-XYRefreshUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BA4157CF212B06E8802F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				996469525E5C8DF54E873506 /* Pods-XYRefresh.debug.xcconfig */,
+				7EDA380B8797AF6F1EA7EA7B /* Pods-XYRefresh.release.xcconfig */,
+				9FB09B5F6041758F3F3F8B0F /* Pods-XYRefreshTests.debug.xcconfig */,
+				0810D2F5DFC0B2D491AF5B89 /* Pods-XYRefreshTests.release.xcconfig */,
+				B9F6ADC00A0EE9A167F8D333 /* Pods-XYRefreshUITests.debug.xcconfig */,
+				B0ED49BC6CE10C8E40FCCF05 /* Pods-XYRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3C0CF4F41D86520300595AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				3C0CF5191D86520300595AC0 /* XYRefreshTests */,
 				3C0CF5241D86520300595AC0 /* XYRefreshUITests */,
 				3C0CF4FE1D86520300595AC0 /* Products */,
+				24BA4157CF212B06E8802F67 /* Pods */,
+				7DFA0305DEFF33D3A08D1514 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +140,11 @@
 		3C0CF4FF1D86520300595AC0 /* XYRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				3C0CF5031D86520300595AC0 /* AppDelegate.h */,
-				3C0CF5041D86520300595AC0 /* AppDelegate.m */,
-				3C0CF5061D86520300595AC0 /* ViewController.h */,
-				3C0CF5071D86520300595AC0 /* ViewController.m */,
-				3C0CF5091D86520300595AC0 /* Main.storyboard */,
-				3C0CF50C1D86520300595AC0 /* Assets.xcassets */,
-				3C0CF50E1D86520300595AC0 /* LaunchScreen.storyboard */,
-				3C0CF5111D86520300595AC0 /* Info.plist */,
+				3C0CF5351D86543900595AC0 /* model */,
+				3C0CF5341D86543100595AC0 /* view */,
+				3C0CF5331D86542600595AC0 /* controller */,
 				3C0CF5001D86520300595AC0 /* Supporting Files */,
+				3C0CF5411D86561100595AC0 /* PrefixHeader.pch */,
 			);
 			path = XYRefresh;
 			sourceTree = "<group>";
@@ -117,6 +152,11 @@
 		3C0CF5001D86520300595AC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C0CF5031D86520300595AC0 /* AppDelegate.h */,
+				3C0CF5041D86520300595AC0 /* AppDelegate.m */,
+				3C0CF50C1D86520300595AC0 /* Assets.xcassets */,
+				3C0CF50E1D86520300595AC0 /* LaunchScreen.storyboard */,
+				3C0CF5111D86520300595AC0 /* Info.plist */,
 				3C0CF5011D86520300595AC0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +180,45 @@
 			path = XYRefreshUITests;
 			sourceTree = "<group>";
 		};
+		3C0CF5331D86542600595AC0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C0CF5061D86520300595AC0 /* ViewController.h */,
+				3C0CF5071D86520300595AC0 /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		3C0CF5341D86543100595AC0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3C0CF5091D86520300595AC0 /* Main.storyboard */,
+				3C0CF53C1D86552B00595AC0 /* XYTableViewCell.h */,
+				3C0CF53D1D86552B00595AC0 /* XYTableViewCell.m */,
+				3C0CF53E1D86552B00595AC0 /* XYTableViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		3C0CF5351D86543900595AC0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0CF5361D8654CB00595AC0 /* XYModel.h */,
+				3C0CF5371D8654CB00595AC0 /* XYModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		7DFA0305DEFF33D3A08D1514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				326621295C556FE47F3DE6F0 /* libPods-XYRefresh.a */,
+				EBD1A4809D150C49951156E5 /* libPods-XYRefreshTests.a */,
+				CF9B0F5CEE5EA4A900B2EA7B /* libPods-XYRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0CF52A1D86520400595AC0 /* Build configuration list for PBXNativeTarget "XYRefresh" */;
 			buildPhases = (
+				38E8538CBEF0258C47064A18 /* [CP] Check Pods Manifest.lock */,
 				3C0CF4F91D86520300595AC0 /* Sources */,
 				3C0CF4FA1D86520300595AC0 /* Frameworks */,
 				3C0CF4FB1D86520300595AC0 /* Resources */,
+				BE02BA49213014C58C0B1971 /* [CP] Embed Pods Frameworks */,
+				6B70891CE791E2AC611C7C05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0CF52D1D86520400595AC0 /* Build configuration list for PBXNativeTarget "XYRefreshTests" */;
 			buildPhases = (
+				90838F5E865AAF5E472D6B26 /* [CP] Check Pods Manifest.lock */,
 				3C0CF5121D86520300595AC0 /* Sources */,
 				3C0CF5131D86520300595AC0 /* Frameworks */,
 				3C0CF5141D86520300595AC0 /* Resources */,
+				BDB15BFA47A06B043FA5344D /* [CP] Embed Pods Frameworks */,
+				DDC7FEF45D14781DB5FF1B5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0CF5301D86520400595AC0 /* Build configuration list for PBXNativeTarget "XYRefreshUITests" */;
 			buildPhases = (
+				4D0A0E3EE12F0124D3EC906D /* [CP] Check Pods Manifest.lock */,
 				3C0CF51D1D86520300595AC0 /* Sources */,
 				3C0CF51E1D86520300595AC0 /* Frameworks */,
 				3C0CF51F1D86520300595AC0 /* Resources */,
+				0BD561AE6C34CAA7FB26C509 /* [CP] Embed Pods Frameworks */,
+				993FB9F6D48DC47EDB1F266F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0CF5401D86552B00595AC0 /* XYTableViewCell.xib in Resources */,
 				3C0CF5101D86520300595AC0 /* LaunchScreen.storyboard in Resources */,
 				3C0CF50D1D86520300595AC0 /* Assets.xcassets in Resources */,
 				3C0CF50B1D86520300595AC0 /* Main.storyboard in Resources */,
@@ -265,13 +354,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BD561AE6C34CAA7FB26C509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefreshUITests/Pods-XYRefreshUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E8538CBEF0258C47064A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0A0E3EE12F0124D3EC906D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B70891CE791E2AC611C7C05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefresh/Pods-XYRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90838F5E865AAF5E472D6B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		993FB9F6D48DC47EDB1F266F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefreshUITests/Pods-XYRefreshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB15BFA47A06B043FA5344D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefreshTests/Pods-XYRefreshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE02BA49213014C58C0B1971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefresh/Pods-XYRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC7FEF45D14781DB5FF1B5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYRefreshTests/Pods-XYRefreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C0CF4F91D86520300595AC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C0CF5081D86520300595AC0 /* ViewController.m in Sources */,
+				3C0CF53F1D86552B00595AC0 /* XYTableViewCell.m in Sources */,
 				3C0CF5051D86520300595AC0 /* AppDelegate.m in Sources */,
+				3C0CF5381D8654CB00595AC0 /* XYModel.m in Sources */,
 				3C0CF5021D86520300595AC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +642,12 @@
 		};
 		3C0CF52B1D86520400595AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996469525E5C8DF54E873506 /* Pods-XYRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XYRefresh/PrefixHeader.pch";
 				INFOPLIST_FILE = XYRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoyan.XYRefresh;
@@ -424,8 +657,12 @@
 		};
 		3C0CF52C1D86520400595AC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDA380B8797AF6F1EA7EA7B /* Pods-XYRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XYRefresh/PrefixHeader.pch";
 				INFOPLIST_FILE = XYRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoyan.XYRefresh;
@@ -435,6 +672,7 @@
 		};
 		3C0CF52E1D86520400595AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB09B5F6041758F3F3F8B0F /* Pods-XYRefreshTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XYRefreshTests/Info.plist;
@@ -447,6 +685,7 @@
 		};
 		3C0CF52F1D86520400595AC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0810D2F5DFC0B2D491AF5B89 /* Pods-XYRefreshTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XYRefreshTests/Info.plist;
@@ -459,6 +698,7 @@
 		};
 		3C0CF5311D86520400595AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F6ADC00A0EE9A167F8D333 /* Pods-XYRefreshUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XYRefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +710,7 @@
 		};
 		3C0CF5321D86520400595AC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0ED49BC6CE10C8E40FCCF05 /* Pods-XYRefreshUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XYRefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +739,7 @@
 				3C0CF52C1D86520400595AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0CF52D1D86520400595AC0 /* Build configuration list for PBXNativeTarget "XYRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +748,7 @@
 				3C0CF52F1D86520400595AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0CF5301D86520400595AC0 /* Build configuration list for PBXNativeTarget "XYRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +757,7 @@
 				3C0CF5321D86520400595AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
